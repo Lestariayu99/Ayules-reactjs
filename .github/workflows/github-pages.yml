@@ -2,9 +2,9 @@
 name: Build and Deploy React App to Github Pages
 on:
   push:
-    branch: [main]
+    branches: [main]
 jobs:
-  build-and-deploy:
+  build-push-gcr:
     name: Build and Deploy
     runs-on: ubuntu-latest
 
